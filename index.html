@@ -16,22 +16,28 @@
 <body class="font-poppins">
     <header class="relative h-screen">
         <div class="relative h-full">
-            <nav class="hidden md:flex justify-between items-center px-8 py-4 absolute top-0 z-6 w-full backdrop-blur-md">
+            <nav class="px-8 py-4 absolute top-0 z-6 w-full backdrop-blur-md">
                 <div class="flex justify-between items-center">
-                    <div class="mx-2">
-                        <img class="" src="img/image 29.svg" alt="">
+                    <div class="flex justify-between items-center">
+                        <div class="mx-2">
+                            <img class="" src="img/image 29.svg" alt="">
+                        </div>
+                        <div class="">
+                            <p class="font-bold text-lg text-white">Qatar</p>
+                            <span class="font-bold text-base text-gold">2022</span>
+                        </div>
                     </div>
-                    <div class="">
-                        <p class="font-bold text-lg text-white">Qatar</p>
-                        <span class="font-bold text-base text-gold">2022</span>
-                    </div>
-                </div>
     
-                <div class="">
-                     <a href="" class=" text-white px-4"><span>Home</span></a>
-                     <a href="" class=" text-white px-4"><span>Tickets</span></a>
-                     <a href="" class=" text-white px-4"><span>Explore Qatar</span></a>
-                     <a href="" class=" text-white px-4"><span>Contact Us</span></a>
+                    <div class="text-white w-6 h-6 cursor-pointer sm:hidden">
+                        <ion-icon class="w-full h-full sm:hidden" name="menu-outline"></ion-icon>
+                    </div>
+
+                    <div class="hidden sm:block">
+                        <a href="" class=" text-white px-4"><span>Home</span></a>
+                        <a href="" class=" text-white px-4"><span>Tickets</span></a>
+                        <a href="" class=" text-white px-4"><span>Explore Qatar</span></a>
+                        <a href="" class=" text-white px-4"><span>Contact Us</span></a>
+                   </div>
                 </div>
             </nav>
             <img class="object-cover w-full h-full sm:object-none md:object-cover lg:object-fill" src="img/background.jpg" alt="">
@@ -399,7 +405,7 @@
 
     <footer class=" bg-red py-8">
         <div class="block mx-0 p-5 w-full lg:flex justify-center items-center lg:w-4/5 lg:mx-auto xl:w-3/4 xl:mx-auto">
-            <div class="w-28 flex justify-between xl:flex xl:justify-between items-center">
+            <div class="w-28 flex justify-between sm:mx-auto sm:w-28 xl:flex xl:justify-between items-center">
                 <div>
                     <img src="img/image 29.svg" alt="">
                 </div>
@@ -410,7 +416,7 @@
             </div>
 
 
-            <div class="w-full sm:w-full block max-w-lg lg:max-w-6xl lg:ml-5 xl:w-full xl:max-w-7xl">
+            <div class="w-full sm:w-4/5 mx-auto block max-w-lg lg:max-w-6xl lg:ml-5 xl:w-full xl:max-w-7xl">
                 <div class="block xl:flex justify-between items-center mb-4 text-white">
                     <div class="p-4 xl:w-3/5 flex justify-between items-center">
                         <a href=""><span>FAQs</span></a>
@@ -419,7 +425,7 @@
                         <a href=""><span>About Us</span></a>
                     </div>
                     
-                    <div class="text-white p-2 text-center w-1/2 mx-auto lg:mx-0 xl:w-1/6 flex justify-between items-center">
+                    <div class="text-white p-2 text-center w-1/2 mx-auto xl:mx-0 xl:w-1/6 flex justify-between items-center">
                         <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
                         <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
                         <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
