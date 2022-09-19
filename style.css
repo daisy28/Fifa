@@ -651,12 +651,12 @@ video {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-6 {
   height: 1.5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-24 {
@@ -841,10 +841,6 @@ video {
   background-color: rgb(179 21 65 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'img\/images2\.jpg\'\)\] {
-  background-image: url('img/images2.jpg');
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -866,6 +862,18 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -1047,44 +1055,18 @@ video {
     width: 75%;
   }
 
-  .sm\:w-full {
-    width: 100%;
-  }
-
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
   .sm\:w-28 {
     width: 7rem;
   }
 
-  .sm\:w-3\/5 {
-    width: 60%;
-  }
-
-  .sm\:w-2\/5 {
-    width: 40%;
-  }
-
   .sm\:w-4\/5 {
     width: 80%;
-  }
-
-  .sm\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
   }
 }
 
 @media (min-width: 768px) {
   .md\:max-w-lg {
     max-width: 32rem;
-  }
-
-  .md\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 
   .md\:p-16 {
@@ -1171,11 +1153,6 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
-  }
-
   .lg\:p-0 {
     padding: 0px;
   }
@@ -1238,6 +1215,10 @@ video {
 
   .xl\:justify-between {
     justify-content: space-between;
+  }
+
+  .xl\:bg-contain {
+    background-size: contain;
   }
 
   .xl\:p-8 {
